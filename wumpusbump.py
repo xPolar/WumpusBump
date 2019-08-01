@@ -10,7 +10,7 @@ def get_prefix(bot, message):
     if message.guild == None:
         pass
     else:
-        with open(r"C:\Users\waris\Documents\Code\Bots\WumpusBump\Data\prefixes.json", "r") as f:
+        with open(r"PREFIXJSONFAILEPATHHERE", "r") as f:
             prefixes = json.load(f)
         if str(message.guild.id) not in prefixes:
             return commands.when_mentioned_or("b!")(bot, message)
