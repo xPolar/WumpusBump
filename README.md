@@ -48,3 +48,4 @@ WumpusBump's default prefix is `b!`
 
 # Selfhosting
 **Selfhosting for WumpusBump is allowed but support will not be provided, if you break the bot do not expect for the support team to fix it.**
+d
